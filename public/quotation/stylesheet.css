@@ -1,0 +1,250 @@
+
+
+body {
+    background-color: white !important;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+body.sidebar-mini {
+    background-color: white !important;
+}
+
+.custom-background {
+    background-color: white !important;
+}
+.invoice-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.row p {
+    font-weight: normal !important; /* or font-weight: 400; */
+}
+.body-font {
+ font-weight: 900 !important;
+ font-style: normal;
+ font-size: 19px;
+ color: black;
+}
+.body-font p{
+ margin-top: 0% !important;
+ margin-bottom: 0% !important;
+}
+.invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.invoice-header h1 {
+    color: #333;
+}
+
+.invoice-details {
+    margin-bottom: 20px;
+}
+
+.invoice-details p {
+    margin: 5px 0;
+}
+
+.invoice-items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.invoice-items th, .invoice-items td {
+    padding: 8px;
+}
+
+.invoice-total {
+    text-align: right;
+}
+
+.center-text {
+    text-align: center !important;
+}
+
+.right-text {
+    text-align: right !important;
+}
+.inv-head{
+    color: #0000CC;
+}
+th {
+    font-size: 25px;
+    color: white;
+    background-color: #3366FF;
+    width: 100px;
+}
+
+.total{
+    color: white;
+    background-color: #3366FF;
+}
+
+td {
+    font-size: 25px;
+}
+
+.font-cus {
+    font-family: 'sans-serif';
+    font-size: 25px;
+}
+
+.table-width {
+    border: 2px solid #0000CC !important;
+}
+
+.table-list{
+    border-bottom: none !important;
+    border-left: 2px solid #0000CC !important;
+    border-right: 2px solid #0000CC !important;
+
+}
+
+.pic{
+    height: 250px !important;
+    vertical-align: top; 
+}
+.custom-hr {
+    
+    border: 1px solid blue !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.signature-table {
+    width: 50%; /* Each table takes up 50% of the container width */
+    margin: 10px;
+    border: 1px double #0000CC;
+    color: black;
+    font-size: 22px;
+}
+
+.signature-cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+.underlined-text {
+    border-bottom: 2px double; /* Set the underline to 1px solid */
+    text-decoration: none; /* Remove the default underline */        }
+
+.td-li{
+    font-size: 19px;
+}
+.table-none{
+    border: none !important;
+}
+.th-bat{
+    font-size: 21px !important;
+}
+th.th-bat1{
+    font-size: 21px !important;
+    width: 40px;
+}
+th.th-bat2{
+    font-size: 21px !important;
+    width: 300px;
+}
+th.th-bat3, th.th-bat4, th.th-bat5{
+    font-size: 21px !important;
+    width: 120px;
+}
+.th-en{
+    border-top: none !important;
+    border-left: 2px double #0000CC !important;
+    border-right: 2px double #0000CC !important;
+
+}
+.term{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.accounting-format::before {
+    content: "$"; /* Add a $ symbol before the content */
+    float: left; /* Float the $ symbol to the left */
+}
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white !important;
+    }
+
+
+    .invoice-container {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .invoice-items td {
+        border: 1px solid #0000CC;
+        padding: 8px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .invoice-details p {
+    margin: 5px 0;
+    font-size: 20px;
+    }
+    .term{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .invoice-total p{
+        text-align: right;
+        font-size: 20px;
+    }
+    .signature-table th{
+        font-size: 20px;
+    }
+    .table-width{
+        border: 1px double #0000CC !important;
+    }
+
+    .kh-h1, .english-h1, .inv-head, .khmer-muol{
+        font-size: 30px;
+    }
+    .khmer-bat{
+        font-size: 17px;
+    }
+    .custom-hr{
+        border: 1px solid blue !important;
+    }
+    .table-width{
+        border: 1px solid #0000CC !important;
+    }
+    .table-none{
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .invoice-items th{
+        background-color: #3366FF !important;
+
+    }
+    .total{
+        background-color: #3366FF !important;
+    }
+    .th-bat{
+        background-color: #3366FF;
+        font-size: 18px !important;
+        border-bottom: none !important;
+        border-top: 1px double #0000CC !important;
+        border-left: 1px double #0000CC !important;
+        border-right: 1px double #0000CC !important;
+
+
+    }
+    /* .th-en{
+        border-top: none !important;
+        border-left: 1px double black !important;
+        border-right: 1px double black !important;
+        border-bottom: 1px double black !important;
+
+    } */
+}
