@@ -42,7 +42,7 @@
             "Database\\Seeders\\": "database/seeders/"
         },
         "files": [
-            "app/helpers.php"
+            "app/helpers.php",
             "app/Helpers/NumberHelper.php"
         ]
     },
