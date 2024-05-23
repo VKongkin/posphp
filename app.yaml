@@ -1,4 +1,4 @@
-runtime: php83
+runtime: php
 env: flex
 
 handlers:
